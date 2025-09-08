@@ -1,0 +1,112 @@
+.consultas {
+    padding: 1em;
+}
+
+.card__consultas {
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    background-color: var(--fundo-card);
+    border-radius: 1em;
+    gap: 1em;
+}
+
+.informacoes__paciente {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1em;
+}
+
+.nome__tipo-consulta {
+    display: flex;
+    flex-direction: column;
+}
+
+.nome__paciente {
+    font-weight: 700;
+    font-size: 0.875em;
+    color: var(--cinza-principal);
+}
+
+.tipo__consulta__texto {
+    font-weight: 400;
+    font-size: 0.75em;
+    color: var(--cinza-claro);
+}
+
+.horario__consulta {
+    font-weight: 500;
+    font-size: 0.75em;
+    color: var(--cinza-principal);
+    margin: 0.5 0em;
+}
+
+.tipo__consulta {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.1em;
+}
+
+.icon__chat {
+    height: 2em;
+    width: 2em;
+    margin-left: 5em;
+}
+
+.icon__camera {
+    height: 1.125em;
+    width: 1.125em;
+    margin-right: 0.3em;
+}
+
+.nome__paciente,
+.tipo__consulta__texto {
+    margin: 0 0em;
+}
+
+.acoes__consulta {
+    border-top: 0.0625em solid var(--fundo);
+    display: flex;
+    flex-direction: column;
+}
+
+.botoes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.ligar__video {
+    padding: 1em;
+    background-color: var(--laranja);
+    border: none;
+    border-radius: 0.5em;
+    color: var(--fundo-card);
+    font-size: 0.875em;
+    font-weight: 500;
+    font-family: inherit;
+}
+
+.ligar__audio {
+    padding: 1em;
+    background-color: transparent;
+    border: 0.0625em solid var(--cinza-claro);
+    border-radius: 0.5em;
+    color: var(--cinza-principal);
+    font-size: 0.875em;
+    font-weight: 500;
+    font-family: inherit;
+}
+
+.ver__endereco {
+    padding: 1.2em;
+    background-color: var(--azul);
+    border: none;
+    border-radius: 0.5em;
+    color: var(--fundo-card);
+    font-size: 0.875em;
+    font-weight: 500;
+    font-family: inherit;
+}

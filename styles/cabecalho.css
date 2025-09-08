@@ -1,0 +1,37 @@
+.cabecalho__medico {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    background-color: var(--fundo);
+}
+
+.perfil__medico {
+    width: 3.5625em;
+    height: 3.5625em;
+}
+
+.perfil__informacoes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.perfil__nome {
+    font-size: 1.375em;
+    font-weight: 700;
+    color: var(--cinza-principal);
+    margin-bottom: 0.2em;
+}
+
+.perfil__consultas {
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: var(--cinza-claro);
+    line-height: 0.1em;
+}
+
+.grudado {
+    position: sticky;
+    top: 0;
+    padding: 1em;
+}

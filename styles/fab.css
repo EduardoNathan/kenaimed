@@ -1,0 +1,28 @@
+.botao__flutuante {
+    position: relative;
+}
+
+.botao__flutuante .botao__flutuante-cadastro {
+    position: fixed;
+    right: 16px;
+    bottom: 70px;
+
+    width: 2em;
+    height: 2em;
+    border-radius: 50%;
+    border: none;
+    background: var(--azul);
+    color: var(--fundo-card);
+    font-size: 2em;
+    font-family: inherit;
+    font-weight: bold;
+    line-height: 1;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    filter: drop-shadow(0 0.1875em 0.375em var(--azul));
+    z-index: 5;
+}
